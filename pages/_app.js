@@ -5,7 +5,6 @@ import Link from "next/link"
 import Store from "./store"
 import '../styles/global.css'
 import '../styles/CountButton.css'
-import '../styles/SearchBar.css'
 import { useRouter } from 'next/router'
 
 const Page = () => {
