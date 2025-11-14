@@ -15,8 +15,8 @@ export default function Home() {
         Welcome to Caitlin's NextJS App!
       </h1>
 
-      <CountButton />
-      <CountButton />
+      <CountButton incrementBy={1} buttonColor={'lightblue'}/>
+      <CountButton incrementBy={2} buttonColor={'lightblue'}/>
 
       <GitHub />
 
